@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+            <ul>
+                <li><a href="me.html">自分のこと</a></li> 
+                <li><a href="house.html">猫のこと</a></li> 
+                <li><a href="create.html">作ったもの</a></li> 
+                <li><a href="future.html">将来のこと</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+
+        
+        <div ondblclick="obj=document.getElementById('open_me').style; obj.display=(obj.display=='none')?'block':'none';">
+                <img class="me" src="app_icon/me.png">
+        </div>
+        
+        <div id="open_me" style="display:none;clear:both;">
+            <div class="win_me">
+                <h1>自分のこと</h1>
+                <p>
+                    猫とパソコンとおしゃべりがすき。</br>
+                    猫を一匹飼っていて、基本的にずっと人とおしゃべりをしている。</br>
+                    一人の時間が嫌いで、それでもパソコンがあれば何とか耐えられる。</br>
+                    パソコンから離れると死んじゃう。</br>
+                </p>
+            </div>
+        </div>
+
+
+        <div ondblclick="obj=document.getElementById('open_per').style; obj.display=(obj.display=='none')?'block':'none';">
+            <img class="per" src="app_icon/per.png">
+        </div>
+
+        <div id="open_per" style="display:none;clear:both;">
+
+            <div class="win_per">
+                <h1>個人情報</h1>
+                <p>
+                    氏名：□□□□</br>
+                    生年月日：2002年11月13日</br>
+                    出身地：東京</br>
+                    メアド：ro□w1□3@gmail.com</br>
+                    特技：言語化</br>
+                    特徴：器用貧乏</br>
+                </p>
+                </div>
+        </div>
+
+
+        <div ondblclick="obj=document.getElementById('open_hobby').style; obj.display=(obj.display=='none')?'block':'none';">
+            <img class="hobby" src="app_icon/hobby.png">
+        </div>
+        <div id="open_hobby" style="display:none;clear:both;">
+            <div class="win_hobby">
+                <h1>趣味</h1>
+                <p>
+                    会話とものづくり。</br>
+                    人と話してる時間が一番幸せ。</br>
+                    一人でいることは滅多にないけど、ものづくりだけは一人でも平気。</br>
+                    樹脂粘土でフィギュアを作ったり、羊毛フェルトで人形を作ったり、絵を描いたり…</br>
+                </p>
+            </div>
+        
+        </div>
+    
+
+
+        <div class="cat"><img src="cat.png" width="320px">
+            <div class="container">
+                <svg width="100" height="100" class="eye padd">
+                    <circle cx="50" cy="50" r="50" fill="yellow" class="eyeball_left" />
+                    <circle cx="50" cy="50" r="38" fill="#0D0D20" class="pupil_left" />
+                </svg>
+                <svg width="100" height="100" class="eye">
+                    <circle cx="50" cy="50" r="50" fill="yellow" class="eyeball_right" />
+                    <circle cx="50" cy="50" r="38" fill="#0D0D20" class="pupil_right" />
+                </svg>
+            </div>
+        </div>
+        
+        <footer>
+            <a>Windows888</a>
+        </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/5-1-14.js"></script>
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+    </style>
+</body>
+
+</html>
